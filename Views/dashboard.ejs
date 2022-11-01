@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honance Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfe692999b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-box">
+            <img src="img/logo-nav.png" class="nav-logo">
+            <ul class="nav-menu">
+                <li class="menu-kupon">
+                    <i class="fa-solid fa-ticket"></i>
+                    <a href="" class="kuponText">Kupon</a>
+                </li>
+                <li class="menu-simpan">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <a href="" class="simpanText">Simpan</a>
+                </li>
+                <li class="menu-pesanan">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <a href="" class="pesananText">Pesanan Saya</a>
+                </li>
+                <li class="menu-profile-box">
+                    <div class="menu-profile">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="" class="namaPengguna">Arif Muhamad Iqbal</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="banner">
+            <img src="img/logo-banner.png" class="banner-logo">
+            <p class="banner-namaHotel">Honance Hotel</p>
+            <p class="banner-sloganHotel">Luxury Deluxe Elegant</p>
+        </div>
+        <div class="main-pencarian overflow-pencarian">
+            <h1 class="title-pencarian">Pencarian Kamar</h1>
+            <span class="title-content">Jenis Kamar</span>
+            <div class="pencarian-box">
+                <i class="fa-solid fa-door-open"></i>
+                <a href="" class="textContent">Standard Room</a>
+            </div>
+            <div class="date-duration">
+                <div class="checkin">
+                    <span class="title-content">Check-In</span>
+                    <div class="pencarian-box small-box">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <a href="" class="textContent">23 Oktober 2022</a>
+                    </div>
+                </div>
+                <div class="duration">
+                    <span class="title-content">Durasi</span>
+                    <div class="pencarian-box small-box">
+                        <i class="fa-solid fa-moon"></i>
+                        <a href="" class="textContent">1 Malam</a>
+                    </div>
+                </div>
+                <div class="checkout">
+                    <span class="title-content">Check-Out</span>
+                    <div class="pencarian-box small-box">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <a href="" class="textContent">24 Oktober 2022</a>
+                    </div>
+                </div>
+            </div>
+            <div class="guests">
+                <span class="title-content">Tamu</span>
+                <div class="pencarian-box">
+                    <i class="fa-solid fa-door-open"></i>
+                    <a href="" class="textContent">2 Dewasa, 0 Anak</a>
+                </div>
+            </div>
+            <div class="pencarian-button">
+                <div class="button-content">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="" class="textSubmit">Cari Kamar</a>
+                </div>
+            </div>
+        </div>
+        <div class="recomendation">
+            <h4 class="titleRecomendation">Rekomendasi Kamar Untuk Anda</h4>
+            <div class="container-recomendation">
+                <% for (i = 0; i<6; i++) { %>
+                    <div class="contentKamar">
+                        <img src="img/foto-kamar.jpg" id="gambarKamar" alt=""><br>
+                        <a href="" id="namaKamar">Standard Room</a>
+                        <p class="harga">Rp. <span id="hargaKamar">221.305</span> /malam</p>
+                        <div class="rating">
+                            <a href="" id="ratingKamar">4,9</a>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                <% } %> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

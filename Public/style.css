@@ -1,0 +1,203 @@
+* {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.nav-box {
+    display: relative;
+    margin: -10px;
+    height: 60px;
+    border: 1px solid #008C95;
+}
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 11%;
+    margin-top: 10px;
+}
+.nav-menu {
+    float: right;
+    margin-right: 7%;
+}
+.nav-menu li {
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 17px;
+}
+li i {
+    margin-right: 2px;
+    color: #008C95;
+}
+.menu-profile-box {
+    height: 30px;
+    padding: 5px 12px;
+    border: 1px solid #008C95;
+    border-radius: 5px;
+}
+.menu-profile {
+    margin-top: -6px;
+}
+.namaPengguna {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+.banner {
+    height: 210px;
+    padding: 20px;
+    background-color: #2A3240;
+}
+.banner-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.banner-namaHotel {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 26px;
+    color: #008C95;
+}
+.banner-sloganHotel {
+    margin: -5px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #F6CB64;
+}
+
+.whitespace {
+    height: 40px;
+}
+.main-pencarian {
+    width: 50%;
+    padding: 4px 18px;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+}
+.overflow-pencarian {
+    margin: -62px auto auto;
+}
+.title-content {
+    display: block;
+    margin: 32px auto 0;
+    font-size: 16px;
+}
+.title {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #008C95;
+}
+.pencarian-box {
+    padding: 4px 8px;
+    width: 240px;
+    height: 30px;
+    margin: 9px 0 9px;
+    line-height: 30px;
+    border: 1px solid #008C95;
+    border-radius: 5px;
+}
+.pencarian-box i {
+    width: 16px;
+    height: 16px;
+    color: #008C95;
+}
+a.textContent {
+    font-size: 14px;
+    margin-left: 8px;
+}
+.date-duration {
+    display: flex;
+    flex-direction: row;
+}
+.small-box {
+    width: 140px;
+    margin-right: 54px;
+}
+.pencarian-button {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin-top: -49px;
+    background-color: #008C95;
+    padding: 4px;
+    border-radius: 5px;
+}
+.button-content {
+    text-align: center;
+}
+.button-content i {
+    color: white;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.textSubmit {
+    color: white;
+}
+
+.recomendation {
+    width: 50%;
+    margin: auto;
+}
+.titleRecomendation {
+    margin: 20px auto 0;
+    text-align: center;
+}
+.container-recomendation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contentKamar {
+    margin: 20px 10px;
+}
+#gambarKamar {
+    width: 170px;
+    height: 100px;
+}
+#namaKamar {
+    font-size: 14px;
+}
+.harga {
+    font-size: 12px;
+    margin: auto;
+}
+#hargaKamar {
+    color: #008C95;
+}
+.rating {
+    float: right;
+    margin-top: -24px;
+}
+#ratingKamar {
+    font-size: 12px;
+    color: #008C95;
+}
+.rating i {
+    width: 12px;
+    height: 12px;
+    color: #008C95;
+}
+.hasil-pencarian {
+    width: 52%;
+    margin: 10px auto;
+}
+.box-hasil {
+    border: 1px solid #008C95;
+    margin: auto;
+}
+.hasil-nama {
+    
+}
